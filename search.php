@@ -14,6 +14,7 @@ $no_of_results = $scraper->result_count;
 <html>
 	<head>
 		<title>Meta Search Engine</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="./styles/stylesheet.css">
 	</head>
@@ -24,8 +25,9 @@ $no_of_results = $scraper->result_count;
         <div class="col-lg-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-content">
+                    <h1><a href="/">Meta Search</a></h1>
                     <h2>
-                        <?php echo $no_of_results; ?> results found for: <span class="text-navy"><?php echo $query; ?></span>
+                        <?php echo $no_of_results; ?> found for: <span class="text-navy"><?php echo $query; ?></span>
                     </h2>
                     <!-- <small>Request time  (0.23 seconds)</small> -->
         
@@ -35,7 +37,7 @@ $no_of_results = $scraper->result_count;
                                 <input type="text" placeholder="<?php echo $query; ?>" name="q" class="form-control input-lg">
 
                                 <div class="input-group-btn">
-                                    <button class="btn btn-lg btn-primary" type="submit">
+                                    <button class="btn btn-md btn-primary" type="submit">
                                         Search
                                     </button>
                                 </div>

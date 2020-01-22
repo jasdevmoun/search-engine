@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Meta Search Engine</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	</head>
 
@@ -21,12 +22,8 @@
 					</form>
 				</h3>
 				
-				<button type="button" class="btn btn-primary">Google</button>
 				<button type="button" class="btn btn-info">Bing!</button>
-				<button type="button" class="btn btn-dark">Ask.com</button>
-				<button type="button" class="btn btn-success">Yahoo</button>
-				<button type="button" class="btn btn-danger">Yandex</button>
-				<button type="button" class="btn btn-warning">DuckDuckGo</button>
+				<button type="button" class="btn btn-danger">Yahoo</button>
 
 				<p class="lead" style="padding-top:50px;">An open source search initiative which focuses on your privacy. We get results from above mentioned search engines on your behalf so that they can't track you.</p>
 
